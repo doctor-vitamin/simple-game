@@ -1,0 +1,24 @@
+.space{
+    position: relative;
+    left: 29.5%;
+    top: 75px;
+    border-radius: 10%;
+    border: 10px solid;
+    border-color: rgb(109, 109, 109);
+    z-index: 1;
+}
+.start{
+    position: relative;
+    left: 48.5%;
+    top: 125px;
+    width: 55px;
+    height: 55px;
+    color: black;
+}
+#player{
+    background-size: contain;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    position: absolute;
+    z-index: 5;
+}
